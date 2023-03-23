@@ -1,3 +1,5 @@
+import os
+
 from util import array_flatten
 
 
@@ -13,5 +15,7 @@ if __name__ == "__main__":
   print(array_flatten.__doc__)
   print(f"input: {array}")
   print(f"output: {array_flatten(array)}")
+  print("\n")
+  os.system("python -m unittest")
   print("\n")
   print(test_message)
